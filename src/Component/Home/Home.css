@@ -1,0 +1,75 @@
+
+.Home {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 20px;
+  margin-top: 80px;
+}
+
+header {
+  color: black;
+  text-align: center;
+  padding: 40px;
+}
+
+header h1 {
+  font-size: 2.5rem;
+  margin-bottom: 10px;
+}
+
+header p {
+  font-size: 1.2rem;
+}
+
+section {
+  margin: 40px 0;
+}
+
+section h2 {
+  color: #333;
+  font-size: 2rem;
+  margin-bottom: 20px;
+}
+
+section p {
+  font-size: 1.2rem;
+  line-height: 1.6;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+ul li {
+  margin-bottom: 10px;
+}
+
+strong {
+  color: #333;
+}
+
+.testimonial {
+  border-left: 3px solid #333;
+  padding-left: 20px;
+  margin-top: 20px;
+}
+
+.testimonial p {
+  font-style: italic;
+}
+
+.testimonial p:last-child {
+  margin-top: 10px;
+}
+
+section:last-child {
+  background-color: #f8f8f8;
+  padding: 40px;
+}
+
+section:last-child a {
+  color: #333;
+  font-weight: bold;
+}
+
