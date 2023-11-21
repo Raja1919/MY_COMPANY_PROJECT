@@ -53,6 +53,7 @@ const Contact = () => {
             value={name}
             onChange={(e) => setName(e.target.value)}
             placeholder="Enter your name"
+            required
           />
         </div>
         <div className="form-group">
@@ -64,6 +65,7 @@ const Contact = () => {
             value={email}
             onChange={(e) => setEmail(e.target.value)}
             placeholder="Enter your email"
+            required
           />
         </div>
         <div className="form-group">
@@ -75,6 +77,7 @@ const Contact = () => {
             value={phone}
             onChange={(e) => setPhone(e.target.value)}
             placeholder="Enter your phone number"
+            required
           />
         </div>
         <div className="form-group">
@@ -97,6 +100,7 @@ const Contact = () => {
             value={message}
             onChange={(e) => setMessage(e.target.value)}
             placeholder="Enter your message"
+            required
           />
         </div>
         <div className="form-group">
